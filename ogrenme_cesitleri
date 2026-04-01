@@ -1,14 +1,14 @@
-Machine learning 3 kısma ayrılır:
-1-)DENETİMLİ ÖĞRENME
-Denetimli öğrenmenin amacı, makinenin birçok etiketli örnekten öğrenmesidir.
+Machine learning is divided into three categories:
+1-)SUPERVISED LEARNING
+The goal of supervised learning is for the machine to learn from a large number of labeled examples.
 
-KULLANIM ALANLARI:
-E-posta spam filtreleme
-Hastalık teşhisi
-Kredi skorlama
-Görüntü sınıflandırma
+APPLICATIONS:
+Email spam filtering
+Disease diagnosis
+Credit scoring
+Image classification
 
-POPÜLER ALGORİTMALARI:
+POPULAR ALGORITHMS:
 Linear Regression
 Logistic Regression
 Decision Trees
@@ -16,18 +16,17 @@ Random Forest
 Support Vector Machines (SVM)
 Neural Networks
 
-2-)DENETİMSİZ ÖĞRENME
-Denetimsiz öğrenme yöntemi, karmaşık verileri basitleştirmek ve veri analizini geliştirmek için verileri farklı kümeler halinde düzenlemeyi veya farklı bakış açılarını keşfetmeyi içerir
-ÖRN: Bir makine öğrenimi sisteminin, hayvan türleri hakkında bilgi içermeyen bir vahşi yaşam fotoğrafları koleksiyonunu sıralamakla görevlendirildiğini düşünün. Bu örnekte, denetimsiz öğrenme algoritmaları görüntülerdeki benzer özellikleri belirleyebilir ve belirli bir hayvan hakkında açıkça talimat verilmeden bunları gruplandırabilir.
+2-)UNSUPERVISED LEARNING
+Unsupervised learning involves organizing data into different clusters or discovering different perspectives to simplify complex data and improve data analysis
+EXAMPLE: Consider a machine learning system tasked with sorting a collection of wildlife photos that contain no information about animal species. In this example, unsupervised learning algorithms can identify similar features in the images and group them without being explicitly instructed about a specific animal.
 
-KULLANIM ALANLARI:
+APPLICATIONS:
+Customer segmentation
+Anomaly detection
+Feature reduction (dimensionality reduction)
+Image clustering
 
-Müşteri segmentasyonu
-Anomali tespiti
-Öznitelik indirgeme (dimensionality reduction)
-Görüntü kümeleme
-
-POPÜLER ALGORİTMALAR:
+POPULAR ALGORITHMS:
 
 K-Means Clustering
 Hierarchical Clustering
@@ -35,16 +34,17 @@ DBSCAN
 Principal Component Analysis (PCA)
 Autoencoders
 
-3-)TAKVİYELİ ÖĞRENME
-Algoritma, çıktılar oluşturmak için girdi verilerini işler ve ardından çıktının etkinliğini ölçen anlık bir geri bildirim sinyali alır.
+3-)REINFORCEMENT LEARNING
+The algorithm processes input data to generate outputs and then receives an immediate feedback signal that measures the effectiveness of the output.
 
-KULLANIM ALANLARI:
-Oyun oynayan yapay zeka (örneğin: AlphaGo)
-Otonom araçlar
-Robot hareket kontrolü
-Portföy optimizasyonu
+APPLICATIONS:
+Artificial intelligence in gaming (e.g., AlphaGo)
+Autonomous vehicles
+Robot motion control
+Portfolio optimization
 
-POPÜLER ALGORİTMALAR:
+POPULAR ALGORITHMS:
+Translated with DeepL.com (free version)
 Q-Learning
 Deep Q-Networks (DQN)
 Proximal Policy Optimization (PPO)
